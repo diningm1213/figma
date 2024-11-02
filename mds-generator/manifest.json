@@ -1,0 +1,15 @@
+{
+  "name": "snap-figma",
+  "id": "1431547236965695216",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["dev"],
+  "capabilities": ["codegen", "vscode"],
+  "codegenLanguages": [{ "label": "React", "value": "react" }],
+  "enableProposedApi": false,
+  "documentAccess": "dynamic-page",
+  "ui": "ui.html",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}
